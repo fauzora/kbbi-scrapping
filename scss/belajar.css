@@ -1,0 +1,18 @@
+.prefixing:hover {
+  display: none;
+}
+
+p.prefixing.no-touch {
+  display: none;
+}
+.prefixing.no-touch p {
+  display: none;
+}
+
+p.message-error {
+  color: red;
+}
+
+p.message-success {
+  color: red;
+}/*# sourceMappingURL=belajar.css.map */

@@ -1,0 +1,27 @@
+// ** Prefixing
+.prefixing {
+  &:hover {
+    display: none;
+  }
+}
+
+p {
+  &.prefixing.no-touch {
+    display: none;
+  }
+  .prefixing.no-touch & {
+    display: none;
+  }
+}
+
+// ** variable
+$alertClass: "error";
+$alertClass2: "success";
+
+p.message-#{$alertClass} {
+    color: red;
+}
+p.message-#{$alertClass2} {
+    color: red;
+}
+
